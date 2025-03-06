@@ -98,32 +98,44 @@ margin-bottom: 30px;
 
 @media screen and (max-width:900px) {
     body{
-        padding: 20px;
+        padding: 10px 0px 0px;
     }
     .together{
         position: unset;
         flex-direction: column;
         width: 100%;
         transform: translate(0, 0);
-        padding: 0;
-        margin: 0;
+        padding: 0 20px 0px !important;
     }
     .together2{
         position: unset;
         /* flex-direction: column; */
         width: 100%;
         transform: translate(0, 0);
-        margin: 0;
-        padding: 0;
+        padding: 0 20px 0px  !important;
     }
     .main{
         width: 100%;
+        top: 260px;
     }
     .card{
         width: 100%;
         border-top: 1px solid  black;
+        margin-bottom: 20px;
     }
     .card img{
         margin-left: 150px;
+    }
+    h1{
+        /* max-width: 100%; */
+        font-size: 23px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 15px;
+max-width: 80%;
+        /* text-align: left; */
+    padding: 5px 0px 0px;
+    margin: 0 auto;
     }
 }
