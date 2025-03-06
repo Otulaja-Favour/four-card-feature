@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* position: sticky; */
+    padding: 70px;
+    /* margin: 30px; */
+    background-color: #FAFAFA;
+    padding-bottom: 90px;
+    margin-bottom: 90px;
+    font-family: Poppins;
+
+}
+.main{
+    position: absolute;
+    top: 600px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-bottom: -20px;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    /* border: 1px solid red; */
+}
+h1{
+    font-weight: 200;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 30px auto;
+    max-width: 47%;
+}
+.together .card{
+    border-top:4px solid #7FC2C6;
+}
+.together2 .card{
+    border-top: 4px solid #EC5154;
+   
+}
+.together{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    /* margin: 30px; */
+    /* border: 1px solid red; */
+    font-family: Poppins;
+}
+ #img1{
+    border-top:4px solid #6BAFFA;
+}
+#img2{
+    border-top: 4px solid #FBAC47;
+}
+.card{
+width: 30%;
+padding: 30px;
+background-color: #fff;
+/* border-top:2px solid #EC5154; */
+
+border-radius: 9px;
+}
+.together2{
+    /* border: 1px solid blue; */
+    width: 90%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    font-family: Poppins;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -30px;
+}
+.together2 .card{
+margin-top: 30px;
+margin-top: 30px;
+  /*  */
+}
+.card img{
+margin-left: 200px;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    body{
+        padding: 20px;
+    }
+    .together{
+        position: unset;
+        flex-direction: column;
+        width: 100%;
+        transform: translate(0, 0);
+        padding: 0;
+        margin: 0;
+    }
+    .together2{
+        position: unset;
+        /* flex-direction: column; */
+        width: 100%;
+        transform: translate(0, 0);
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        border-top: 1px solid  black;
+    }
+    .card img{
+        margin-left: 150px;
+    }
+}
